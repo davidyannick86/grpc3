@@ -1,0 +1,15 @@
+[package]
+name = "grpc3"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.43.0", features = ["full"] }
+tonic = "0.12.3"
+prost = "0.13.5"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["fmt"] }
+uuid = { version = "1.15.1", features = ["v4"] }
+
+[build-dependencies]
+tonic-build = "0.12.3"
