@@ -3,6 +3,7 @@ use std::sync::{Arc, Mutex};
 
 use todo::{AddTaskResponse, CompleteTaskResponse, ListTasksResponse};
 use tonic::{Response, Status};
+
 use tracing::info;
 
 pub mod todo {
